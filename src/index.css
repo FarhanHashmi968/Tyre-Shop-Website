@@ -1,0 +1,120 @@
+.tyreCard:hover {
+  box-shadow: 0px 0px 2px black;
+}
+
+.footerp p:hover {
+  cursor: pointer;
+  color: rgb(87, 87, 255);
+}
+
+/* Responsive code for corousel */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    height: 40vh;
+  }
+}
+
+/* Responsive code for MainCard Part */
+.scrollspy-example {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+}
+
+.carousel-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Responsive code for who are we section */
+#shopCarousel {
+  position: relative;
+}
+
+#shopCarousel .carousel-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+#shopCarousel .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shopCarousel .carousel-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  #shopCarousel .carousel-img {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  #shopCarousel .carousel-img {
+    max-height: 150px;
+  }
+}
+
+/* Responsive code for who are we customer review section */
+.customer-review-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 90%;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.customer-review-container .customer-image {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .customer-review-container .customer-image {
+    max-width: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .customer-review-container .customer-image {
+    max-width: 30px;
+  }
+}
+
+/* Styling for active scroll-spy link */
+.nav-link.active {
+  background-color: #007bff;
+  font-weight: bold;
+}
